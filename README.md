@@ -43,4 +43,6 @@ So as a Web Devs/Engineers we want to be able to design, build and maintain or a
 ## Inspriration
 Think about your goals and where you’d like to be, what you’d like to be able to do at the end of this course. Take inspiration from your favorite sites, spend some time really interacting with those sites. From now on as a developer your first impulse should be to start looking at things with a critical eye. Note the things you like, and especially the things you DONT like. Does a site/app feel fast, is it easy to understand, is interacting with it intuitive. These are questions you should ask everyday. So start looking around not just on the web but in real life and see how things are made, and how you as a user interacts with those things.
 
-So everyday lets find some inspiration to do good work and build new skills. To that end at the beginning of each class I’d like to look at one site and we’ll spend a few minutes analyzing what we like or don’t like and ideas you may have for making it better. [siteinspire.com](https://www.siteinspire.com)
+So everyday lets find some inspiration to do good work and build new skills. To that end at the beginning of each class I’d like to look at one site and we’ll spend a few minutes analyzing what we like or don’t like and ideas you may have for making it better. 
+
+[siteinspire.com](https://www.siteinspire.com)
