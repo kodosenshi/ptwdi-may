@@ -18,6 +18,12 @@ Welcome to Part Time Web Development Intensive!!
 * [Inspiration Notes](https://canvas.instructure.com/courses/1147990/assignments/6123598)
 
 -----
+### Daily Progress Pages
+You can find some of the work we do in class here.
+
+[https://kodosenshi.github.io/ptwdi-may/](https://kodosenshi.github.io/ptwdi-may/)
+
+-----
 ## Who We Are
 
 #### WHAT IS AN ENGINEER?…
