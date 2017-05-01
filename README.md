@@ -4,7 +4,8 @@
 
 Welcome to Part Time Web Development Intensive!!
 
-### Day 1: Getting Started with HTML
+-----
+### Day 1: Getting Started with HTML  
 
 **Lecture Slides**
 
@@ -12,10 +13,9 @@ Welcome to Part Time Web Development Intensive!!
 * [Web Development Basics](https://canvas.instructure.com/courses/1147990/files/50430138)
 * [HTML5 Tags](https://canvas.instructure.com/courses/1147990/files/50430130)
 
-**Homework**
+**Homework** 
 
-* [Inspiration Notes]
-(https://canvas.instructure.com/courses/1147990/assignments/6123598)
+* [Inspiration Notes](https://canvas.instructure.com/courses/1147990/assignments/6123598)
 
 -----
 ## Who We Are
