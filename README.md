@@ -18,6 +18,21 @@ Welcome to Part Time Web Development Intensive!!
 * [Inspiration Notes](https://canvas.instructure.com/courses/1147990/assignments/6123598)
 
 -----
+
+### Day 2: CSS Fundamentals
+
+**Lecture Slides** *(Must be logged into Canvas to see slides)*
+
+* [CSS Basics](https://canvas.instructure.com/courses/1147990/modules/items/12258746)
+* [CSS Layout](https://canvas.instructure.com/courses/1147990/modules/items/12258747)
+* [CSS Resets](https://canvas.instructure.com/courses/1147990/modules/items/12258748)
+
+**Homework** 
+
+* [Start Personal Website](https://canvas.instructure.com/courses/1147990/assignments/6123605)
+* [News Article](https://canvas.instructure.com/courses/1147990/assignments/6123602)
+
+-----
 ### Daily Progress Pages
 You can find some of the work we do in class here.
 
