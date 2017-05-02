@@ -5,33 +5,8 @@
 Welcome to Part Time Web Development Intensive!!
 
 -----
-### Day 1: Getting Started with HTML  
-
-**Lecture Slides** *(Must be logged into Canvas to see slides)*
-
-* [Welcome to Class](https://canvas.instructure.com/courses/1147990/files/50430139)
-* [Web Development Basics](https://canvas.instructure.com/courses/1147990/files/50430138)
-* [HTML5 Tags](https://canvas.instructure.com/courses/1147990/files/50430130)
-
-**Homework** 
-
-* [Inspiration Notes](https://canvas.instructure.com/courses/1147990/assignments/6123598)
-
------
-
-### Day 2: CSS Fundamentals
-
-**Lecture Slides** *(Must be logged into Canvas to see slides)*
-
-* [CSS Basics](https://canvas.instructure.com/courses/1147990/modules/items/12258746)
-* [CSS Layout](https://canvas.instructure.com/courses/1147990/modules/items/12258747)
-* [CSS Resets](https://canvas.instructure.com/courses/1147990/modules/items/12258748)
-
-**Homework** 
-
-* [Start Personal Website](https://canvas.instructure.com/courses/1147990/assignments/6123605)
-* [News Article](https://canvas.instructure.com/courses/1147990/assignments/6123602)
-
+### [Day 1: Getting Started with HTML](https://github.com/kodosenshi/ptwdi-may/wiki/May-1) 
+### [Day 2: CSS Fundamentals](https://github.com/kodosenshi/ptwdi-may/wiki/May-3)
 -----
 ### Daily Progress Pages
 You can find some of the work we do in class here.
