@@ -7,6 +7,7 @@ Welcome to Part Time Web Development Intensive!!
 -----
 ### [Day 1: Getting Started with HTML](https://github.com/kodosenshi/ptwdi-may/wiki/May-1) 
 ### [Day 2: CSS Fundamentals](https://github.com/kodosenshi/ptwdi-may/wiki/May-3)
+### [Day 3: CSS Fundamentals Part 2](https://github.com/kodosenshi/ptwdi-may/wiki/May-7)
 -----
 ### Daily Progress Pages
 You can find some of the work we do in class here.

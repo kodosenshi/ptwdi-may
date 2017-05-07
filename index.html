@@ -1,68 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <title>My Page</title>
+   
+        <link type="text/css" href="style.css">
 
-<head>
-    <title>My Page</title>
-</head>
+        <style>
+            h1 {
+                color: rgba(0,0,0, 0.3);
+                position: absolute;
+                width: 100%;
+                top: 0;
+                left: 0;
+                height: 100px;
+                z-index: 2;
+                font-size: 100px;
+            }
 
-<body>
-    <h1>Test</h1>
-    <h2>Subtitle</h2>
-    <div>
-        <a href="http://www.google.com" target="_blank">Go To Google</a>
-    </div>
-    <a href="#test" title="This is the title of an anchor tag, roll your cursor over this tag in the browser and notice the tool tip text">Jump To Test</a>
+            p {
+            }
+            
+            img {
+                position: absolute;
+                width: 100%;
+                height: 500px;
+                left: 0;
+                top: 0;
+                opacity: 0.5;
+                z-index: 1;
+            }
 
-    <!-- the image (img) tag is an inline element its rendered within the flow of text -->
-    <!-- Image tags should always contain an "alt" attribute, can you tell me why?? (look this up if you have time) -->
-    <p>Sed ut unde omnis iste natus error sit voluptatem 
-        <img src="http://cdn3-www.cattime.com/assets/uploads/2015/07/cat-day-2-2-300x186.jpg" alt="Cute Kitten"> 
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis
-        et quasi architecto beatae vitae dicta sunt explicabo.
-    </p>
+        </style>
+        
+    </head>
+    <body>
+        <article>
+            <div class="header">
+                <h1>My Video Page</h1>
+                <p>Sed ut unde omnis iste natus error sit voluptatem 
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae 
+            ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            </p>
+            <img src="computer.png" alt="">
+            </div>
+            
+            
+        </article>
 
-    <ul>
-        <li>First List Item</li>
-    </ul>
-
-    <!-- this is a comment, its not visible in the browser -->
-    <!-- the pre tag preserves "white space" which is the formatted spaces around tags -->
-    <!-- normally white space is ignored, notice how its pushing down the content in the browser -->
-    <pre>
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </pre>
-
-    <!-- the paragraph (p) tag is a block element that is 100% the width of the browser-->
-    <!-- it pushes content below it -->
-    <p id="test">Test</p>
-
-    <!-- the div tag is a block element that is 100% the width of the browser-->
-    <!-- it pushes content below it -->
-    <div><iframe src="http://espn.com" width="500"></iframe></div>
-
-    <!-- iframes are inline frames that are used to embed other documents within a document -->
-    <!-- think of it similar to picture in picture -->
-    <!-- many widgets such as youtube videos can be embedded this way -->
-
-    <!--
-        You can create block comments like this where you comment across multiple lines
-        Commenting your code is helpful when you need to share important information
-        Commenting is encouraged but don't over comment
-    -->
-    <div><iframe src="https://www.youtube.com/embed/MuVaLvuBAP0" width="500"></iframe></div>
-
-</body>
-
+       
+    </body>
 </html>
