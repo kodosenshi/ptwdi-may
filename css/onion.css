@@ -1,0 +1,70 @@
+/*
+  We will learn more about this but we want to 
+  reset the browser's (user-agent's) default styles
+  what styles you reset.
+
+  https://canvas.instructure.com/courses/1147990/files/50430132
+*/
+
+html, body, div, span, h1, h2, h3, h4, h5, h6,
+section, img, audio, video {
+  margin: 0;
+  padding: 0;
+}
+
+footer, header, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+/* END RESET */
+
+* {
+  box-sizing: inherit;
+}
+
+article {
+  line-height: 1.5;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto; /* center */
+}
+
+h1, h2, h3 {
+  margin: 3px 0;
+}
+
+h1 {
+  line-height: 1;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.main-image {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+footer {
+  clear: left;
+}
+
+/* 
+  why overflow hidden here?? 
+  http://stackoverflow.com/questions/710158/why-do-my-list-item-bullets-overlap-floating-elements
+*/
+
+ul {
+  overflow: hidden;
+}
+
+ul li {
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.3;
+}
