@@ -1,0 +1,147 @@
+/*
+  We will learn more about this but we want to 
+  reset the browser's (user-agent's) default styles
+  what styles you reset.
+
+  https://canvas.instructure.com/courses/1147990/files/50430132
+*/
+
+html, body, div, span, h1, h2, h3, h4, h5, h6,
+section, img, audio, video {
+  margin: 0;
+  padding: 0;
+}
+
+footer, header, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+/* END RESET */
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 75px;
+  box-sizing: border-box;
+}
+
+.main-header {
+  font-family: Arial, sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 75px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+  text-align: center;
+}
+
+.main-header-title {
+  margin: 5px;
+}
+
+.main-header-subtitle {
+  font-size: 14px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.main-section {
+  width: 962px;
+  margin: 0 auto;
+}
+
+.image-gallery {
+  clear: both;
+  margin-top: 50px;
+}
+
+/* 
+  This use a self clearing trick 
+  https://css-tricks.com/snippets/css/clear-fix/
+  Because this container contains floated items,
+  If we want this contain to maintain its height
+  we need to clear it. This trick is called a "clearfix".
+  Without this trick .image-gallery would have no height.
+*/
+.image-gallery:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.image-gallery-item {
+  float: left;
+  border: 1px solid #aaaaaa;
+  margin: 0 10px 10px 0;
+}
+
+.image-gallery-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.info {
+  font-size: 20px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .main-header-title {
+    font-size: 30px;
+  }
+  .main-section {
+    width: 600px;
+  }
+
+  .image-gallery-item {
+    width: 193px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-header-title {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+
+  .main-header-subtitle {
+    font-size: 12px;
+  }
+
+  .main-section {
+    width: 400px;
+  }
+
+  .image-gallery-item {
+    width: 123px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-header-title {
+    font-size: 16px;
+    margin-top: 12px;
+  }
+
+  .main-header-subtitle {
+    font-size: 10px;
+  }
+
+  .main-section {
+    width: 320px;
+  }
+
+  .image-gallery-item {
+    width: 100px;
+  }
+}
