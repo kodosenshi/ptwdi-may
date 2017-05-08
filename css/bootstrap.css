@@ -1,10 +1,17 @@
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  transform: translateX(-2%);
+}
+
 .row {
   background: lightgray;
+  margin-bottom: 40px;
 }
 
 .col {
   font-size: 20px;
-  /*border: 1px solid;*/
-  box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.75);
+  border: 1px solid;
   padding: 15px;
 }
