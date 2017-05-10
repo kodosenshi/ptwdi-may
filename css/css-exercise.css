@@ -1,11 +1,3 @@
-/*
-  We will learn more about this but we want to 
-  reset the browser's (user-agent's) default styles
-  what styles you reset.
-
-  https://canvas.instructure.com/courses/1147990/files/50430132
-*/
-
 html, body, div, span, h1, h2, h3, h4, h5, h6,
 section, img, audio, video {
   margin: 0;
@@ -20,8 +12,6 @@ body {
   line-height: 1;
 }
 
-/* END RESET */
-
 * {
   box-sizing: inherit;
 }
@@ -29,17 +19,39 @@ body {
 body {
   margin: 0;
   padding: 0;
-  padding-top: 75px;
   box-sizing: border-box;
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+  color: #00aaff;
+}
+
+ 
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+form {
+  padding: 40px;
+  margin: 40px 0;
+  border: 1px solid #aaaaaa;
+}
+
+lable {
+  font-size: 12px;
 }
 
 .main-header {
   font-family: Arial, sans-serif;
-  /*position: fixed;*/
+  position: relative;
   top: 0;
   width: 100%;
-  height: 75px;
-  padding: 10px;
+  padding: 30px;
   background-color: rgba(0, 0, 0, 0.9);
   color: #ffffff;
   text-align: center;
@@ -52,9 +64,10 @@ body {
 }
 
 .main-header-subtitle {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bolder;
   margin: 0;
+  line-height: 1.3;
 }
 
 .main-section {
@@ -91,63 +104,8 @@ body {
   margin-right: 0;
 }
 
-.info {
-  font-size: 20px;
+.content {
   padding: 20px;
   margin: 0 auto;
 }
 
-@media (min-width: 768px) and (max-width: 979px) {
-  .main-header {
-    opacity: 0;
-  }
-
-  .main-header-title {
-    font-size: 30px;
-  }
-  .main-section {
-    width: 600px;
-  }
-
-  .image-gallery-item {
-    width: 193px;
-  }
-}
-
-@media (max-width: 767px) {
-  .main-header-title {
-    font-size: 20px;
-    margin-top: 8px;
-  }
-
-  .main-header-subtitle {
-    font-size: 12px;
-  }
-
-  .main-section {
-    width: 400px;
-  }
-
-  .image-gallery-item {
-    width: 123px;
-  }
-}
-
-@media (max-width: 480px) {
-  .main-header-title {
-    font-size: 16px;
-    margin-top: 12px;
-  }
-
-  .main-header-subtitle {
-    font-size: 10px;
-  }
-
-  .main-section {
-    width: 320px;
-  }
-
-  .image-gallery-item {
-    width: 100px;
-  }
-}
